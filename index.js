@@ -62,7 +62,7 @@ console.log(minimumValue)
 maximumminimum()
 */
 
-//28) Create an array of arrays, in which every array has 10 random numbers
+/*28) Create an array of arrays, in which every array has 10 random numbers
     
     let nestedArrayOne =[]
     let nestedArrayTwo = []
@@ -82,3 +82,4 @@ function arrayOfArrays() {
 }
 arrayOfArrays()
 console.log(arrayWithArrays)
+*/
