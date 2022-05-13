@@ -7,3 +7,35 @@ table, th, td {
 #footer {
     background-color: aqua;
 }
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+h1 {
+    margin: 0 auto;
+    text-align:center ;
+
+}
+a {
+    color: blueviolet;
+}
+.ex14 {
+    border: 5px solid red;
+}
+#table {
+    border-radius: 50px;
+}
+p {
+    margin: 15px;
+}
+
+.exercise17 {
+    font-size: x-large;
+    font-weight: 700;
+}
+.exercise18 {
+    visibility: hidden;
+}
+td {
+    border: 5px solid green;
+}
