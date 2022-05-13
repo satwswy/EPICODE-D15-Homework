@@ -39,3 +39,7 @@ p {
 td {
     border: 5px solid green;
 }
+.test {
+    background-color: rgb(144, 144, 214);
+    border: 15px solid violet;
+}

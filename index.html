@@ -132,7 +132,7 @@
       <!--Exercise nine-->
       <div>
         <p>I am a paragraph</p>
-        <ul>I am an ul
+        <ul id="hey-ul">I am an ul
           <li>1</li>
           <li>2</li>
           <li>3</li>
@@ -171,8 +171,60 @@
           tableNode.appendChild(newRowNode)
         }
         //addNewRow()
+
+        function addClassTest(){
+          let newRowNode = document.querySelectorAll('tr')
+          for(let i=0 ; i<newRowNode.length; i++)
+          {
+            newRowNode[i].classList.add('test')
+          }
+        }
+        //addClassTest()
+        let allLinksNode = document.getElementsByTagName('a')
+        function addLinkBackground(){
+          for(i=0; i<allLinksNode.length; i++)
+          {
+            allLinksNode[i].style.backgroundColor = 'red'
+          }
+          
+        }
+        //addLinkBackground()
+
+        function pageLoaded(){
+          console.log("Page Loaded")
+        }
+
+
+       // window.onload = pageLoaded()
+
+
+       function addUlItems(innerText){
+         let ulNode = document.getElementsByTagName('ul')[0]
+         let liNode = document.createElement('li')
+        liNode.innerText = innerText
+        ulNode.appendChild(liNode)
+       }
+       //addUlItems("hey i am a new li ")
+
+       function clearList(){
+        let ListToclear = document.querySelectorAll('#hey-ul li')
+         for (let i=0; i<ListToclear.length; i++)
+         {
+           ListToclear[i].remove()
+         }
+
+       }
+       //clearList()
+
+        /*or  function clearList(){
+        let ListToclear = document.getElementById('hey-ul')
+         ListToclear.innerHTML=""
+
+       }
+        */
+       
       </script>
-    
+
     </body>
     </html>
 </html>
