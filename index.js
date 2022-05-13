@@ -96,3 +96,24 @@ console.log(arrayWithArrays)
 }
 console.log(longestArray(['Hey i am array number one',10,true], ['Hey i am array two',55,false])) */
 
+// 30) Create a function that gets 2 arrays of numbers as parameters and returns the one with the higher sum of values
+
+/*function sumOfArrays(num1 ,num2){
+    let sumOfArrayOne = 0
+    let sumOfArrayTwo = 0
+for(i=0 ; i<num1.length ; i++)
+{
+    sumOfArrayOne = sumOfArrayOne + num1[i]
+    //console.log(sumOfArrayOne)
+}
+for(i=0 ; i<num2.length ; i++)
+{
+    sumOfArrayTwo = sumOfArrayTwo + num2[i]
+    //console.log(sumOfArrayTwo)
+}
+if (sumOfArrayOne > sumOfArrayTwo)
+console.log('The bigger sum is', sumOfArrayOne)
+else {console.log('The bigger sum is', sumOfArrayTwo)}
+}
+//console.log
+(sumOfArrays([1,5,6,7,99,45,35,7] , [5,88,92,55,14,77,36])) */
