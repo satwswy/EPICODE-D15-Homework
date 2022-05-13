@@ -23,8 +23,8 @@ console.log(objectNumberOne)
 }
 */
 
- /*26
- let arrayOfRandomNumbers = []
+ //26
+ /*let arrayOfRandomNumbers = []
 function randomNumber() {
     
     
@@ -32,14 +32,14 @@ function randomNumber() {
 for (let i=0; i<100 ; i++)
 {
     let randomNum = Math.floor((Math.random() * 100) + 1);
-    arrayOfRandomNumbers[i] = randomNum
+    arrayOfRandomNumbers.push(randomNum)
     
     
 }
 console.log(arrayOfRandomNumbers)
 }
-randomNumber()
-*/
+randomNumber()*/
+
 
 //27) Write a function to get the maximum and minimum values from the previously created array
 
@@ -59,8 +59,8 @@ for (let i =0; i<arrayOfRandomNumbers.length; i++){
 }
 console.log(minimumValue)
 }
-maximumminimum()
-*/
+maximumminimum()*/
+
 
 /*28) Create an array of arrays, in which every array has 10 random numbers
     
