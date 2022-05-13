@@ -147,7 +147,7 @@
        <!--32) Get every <td> element from the page-->
       <script>
         let idContainerNode = document.getElementById('container')
-        
+
         let tdElementContainer = document.querySelectorAll('td')
 
         function printText(){
@@ -157,7 +157,20 @@
             console.log(innerTextNode)
           }
         }
-        
+        function changeH1()
+      {
+        let h1Node = document.querySelector('h1')
+        h1Node.innerText = "Hey js changed my text :) "
+      }
+        //changeH1()
+
+        function addNewRow(){
+          let tableNode = document.querySelector('table')
+          let newRowNode = document.createElement('tr')
+          newRowNode.innerText = 'Hey i am a new row created in js'
+          tableNode.appendChild(newRowNode)
+        }
+        //addNewRow()
       </script>
     
     </body>
