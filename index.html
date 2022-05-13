@@ -144,8 +144,19 @@
       </footer>  
       <script src="index.js"></script>
        <!--Exercise 31 Get the element with an id of "container" from the page-->
+       <!--32) Get every <td> element from the page-->
       <script>
         let idContainerNode = document.getElementById('container')
+        
+        let tdElementContainer = document.querySelectorAll('td')
+
+        function printText(){
+          let innerTextNode
+          for(let i=0;i<tdElementContainer.length; i ++){
+            innerTextNode = tdElementContainer[i].innerText
+            console.log(innerTextNode)
+          }
+        }
         
       </script>
     
