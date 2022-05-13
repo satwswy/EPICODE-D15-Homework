@@ -117,3 +117,4 @@ else {console.log('The bigger sum is', sumOfArrayTwo)}
 }
 //console.log
 (sumOfArrays([1,5,6,7,99,45,35,7] , [5,88,92,55,14,77,36])) */
+
