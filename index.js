@@ -83,3 +83,16 @@ function arrayOfArrays() {
 arrayOfArrays()
 console.log(arrayWithArrays)
 */
+
+//29) Create a function that gets 2 arrays as parameters and returns the longest one
+    
+/*function longestArray(arrayOne,arrayTwo) {
+    if (arrayOne.length >arrayTwo.length){
+        return arrayOne
+    }
+    else {
+        return arrayTwo
+    }
+}
+console.log(longestArray(['Hey i am array number one',10,true], ['Hey i am array two',55,false])) */
+
