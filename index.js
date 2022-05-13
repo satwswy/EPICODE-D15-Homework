@@ -61,3 +61,24 @@ console.log(minimumValue)
 }
 maximumminimum()
 */
+
+//28) Create an array of arrays, in which every array has 10 random numbers
+    
+    let nestedArrayOne =[]
+    let nestedArrayTwo = []
+    let arrayWithArrays =[nestedArrayOne, nestedArrayTwo]
+
+function arrayOfArrays() {
+     for (let i=0; i<10 ; i++)
+    {
+        let randomNum = Math.floor((Math.random() * 10) + 1);
+        nestedArrayOne[i] = randomNum
+    }
+    for (let i=0; i<10 ; i++)
+    {
+        let randomNum = Math.floor((Math.random() * 10) + 1);
+        nestedArrayTwo[i] = randomNum
+    }
+}
+arrayOfArrays()
+console.log(arrayWithArrays)
